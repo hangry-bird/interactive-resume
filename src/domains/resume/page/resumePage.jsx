@@ -12,8 +12,6 @@ const StyledDiv = styled.div`
   width: 100%;
   height: 100%;
   font-size: 1rem;
-
-  color: ${(props) => props.color || "gray"};
 `;
 
 const ResumePage = () => {
