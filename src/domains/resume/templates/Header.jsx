@@ -39,7 +39,6 @@ const StyledSpan = styled.span`
   font-size: ${(props) => props.fontSize || "2vw"};
 `;
 
-
 const Header = () => {
 
   AOS.init();
