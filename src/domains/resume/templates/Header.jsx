@@ -24,6 +24,7 @@ const StyledHeader2 = styled.h2`
   font-size: ${(props) => props.fontSize || "8vw"};
 `;
 
+
 const Header = () => {
 
   AOS.init();
