@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 // Templates
 import Header from '../templates/Header'
+import Contents from '../templates/Contents';
 
 // react scroll parallax
 // react aos
@@ -18,6 +19,7 @@ const ResumePage = () => {
   return (
       <StyledDiv>
         <Header />
+        <Contents />
       </StyledDiv>
   );
 }
