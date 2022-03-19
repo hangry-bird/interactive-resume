@@ -1,13 +1,6 @@
-//App.tsx
 import React, { useState } from 'react';
 import styled from "styled-components";
 import AOS from 'aos';
-
-import Arrow from 'src/assets/images/footer/right_arrow_icon.png'
-
-// react scroll parallax
-// react aos
-// react card flip
 
 const StyledWrap = styled.div`
   width: ${(props) => props.width || "100%"};
