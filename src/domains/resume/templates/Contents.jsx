@@ -6,18 +6,42 @@ const Contents = () => {
 
   AOS.init();
 
+  
+
   return (
     <StyledDiv
       height={"100vh"}>
 
-        <StyledDiv
+{/* <StyledDiv
+          className="box2"
           width={"200px"}
           height={"200px"}
           margin={"12vh"}
           border={"1px solid red"}
-          data-aos="fade-right">
+          // data-aos="fade-right"
+          >
 
-        </StyledDiv>
+
+
+        <StyledDiv
+          className="box2-1"
+          width={"200px"}
+          height={"200px"}
+          margin={"12vh"}
+          border={"1px solid red"}
+          // data-aos="fade-right"
+          ></StyledDiv>
+
+<StyledDiv
+          className="box2-2"
+          width={"200px"}
+          height={"200px"}
+          margin={"12vh"}
+          border={"1px solid red"}
+          // data-aos="fade-right"
+          ></StyledDiv>
+        </StyledDiv> */}
+
         {/* <div data-aos="fade-right">
         </div> */}
     </StyledDiv>

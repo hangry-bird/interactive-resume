@@ -5,7 +5,10 @@ export const StyledDiv = styled.div`
   width: ${(props) => props.width || "100%"};
   height: ${(props) => props.height || "auto"};
 
-  margin: ${(props) => props.margin || "0"};
+  background: ${(props) => props.background || ""};
+  background-color: ${(props) => props.backgroundColor || ""};
+  
+  margin: ${(props) => props.margin || ""};
   margin-top: ${(props) => props.marginTop || ""};
 
   border: ${(props) => props.border || ""};
@@ -13,22 +16,25 @@ export const StyledDiv = styled.div`
   text-align: ${(props) => props.textAlign || "center"};
 
   position: ${(props) => props.position || ""};
+  top: ${(props) => props.top || ""};
+  right: ${(props) => props.right || ""};
   bottom: ${(props) => props.bottom || ""};
+  left: ${(props) => props.left || ""};
 
   display: ${(props) => props.display || ""};
   flex-direction: ${(props) => props.flexDirection || ""};
   justify-content: ${(props) => props.justifyContent || ""};
   align-items: ${(props) => props.alignItems || ""};
-
 `;
 
 export const StyledHeader1 = styled.h1`
-  font-size: ${(props) => props.fontSize || "4vw"};
-  color: ${(props) => props.color || "rgba(0, 0, 0, 0.5)"};
-  font-weight: ${(props) => props.fontWeight || ""};
+  font-size: ${(props) => props.fontSize || "68px"};
+  color: ${(props) => props.color || "#eee"};
+  font-weight: ${(props) => props.fontWeight || "600"};
   display: ${(props) => props.display || ""};
 `;
 
 export const StyledSpan = styled.span`
   font-size: ${(props) => props.fontSize || "2vw"};
+  color: ${(props) => props.color || "#eee"};
 `;

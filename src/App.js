@@ -16,13 +16,19 @@ import 'react-toastify/dist/ReactToastify.css';
 // Image
 import BackgroundImage from 'src/assets/images/background-image.jpg'
 
-
+// Custom Components
+import { StyledDiv } from 'src/components/styled-component/tag';
 
 function App() {
 
   return (
     <div className='App'>
-      <img src={BackgroundImage} className="background-image" alt='background image' />
+      {/* <img src={BackgroundImage} className="background-image" alt='background image' /> */}
+      <StyledDiv
+        position={"fixed"}
+        width={"100%"}
+        height={"100%"}
+        background={"linear-gradient(to bottom, #020024, #0e4b83);"} />
 
       <Routes>
         <Route path='/' element={<ResumePage />} />
