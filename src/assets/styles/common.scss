@@ -1,8 +1,8 @@
 .arrow {
     cursor: pointer;
     position: relative; 
-    height:46px;
-    margin:20px;
+    height:auto;
+    // margin:20px;
     animation: up-down 1.4s infinite ease-in-out alternate;
     @keyframes up-down{
         from{ transform: translatey(-8px); }

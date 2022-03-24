@@ -1,5 +1,5 @@
 {
-  "name": "portfolio_webpack",
+  "name": "interactive-resume",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@inlet/react-pixi": "^6.6.5",
     "aos": "^2.3.4",
     "file-loader": "^6.2.0",
     "gsap": "^3.9.1",

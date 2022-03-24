@@ -50,7 +50,10 @@ const Header = () => {
       // display={"flex"}
       // flexDirection={"column"}
       justifyContent={"center"}
-      alignItems={"center"}>
+      // alignItems={"center"}
+      display={"flex"}
+      alignItems={"flex-end"}
+      >
 
       <StyledDiv 
         position={"fixed"}
@@ -99,16 +102,20 @@ const Header = () => {
 
       <StyledDiv
         position={"absolute"}
-        bottom={"0vw"}>
+        // position={"fixed"}
+        bottom={"12%"}
+        >
         <div
           data-aos="fade-up"
-          data-aos-delay="1500"
-          data-aos-duration="800"
-          data-aos-easing="ease-in-out">
+          data-aos-delay="1400"
+          // data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          // data-aos-easing="ease"
+          >
           <StyledDiv
             display={"flex"}
             flexDirection={"column"}>
-            <StyledSpan>Scroll Down</StyledSpan>
+            <StyledSpan fontSize={"30px"}>Scroll Down</StyledSpan>
             <span className='arrow'></span>
           </StyledDiv>
         </div>
