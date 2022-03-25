@@ -10,8 +10,11 @@ export const StyledDiv = styled.div`
   
   margin: ${(props) => props.margin || ""};
   margin-top: ${(props) => props.marginTop || ""};
+  padding: ${(props) => props.padding || ""};
 
   border: ${(props) => props.border || ""};
+  border-radius: ${(props) => props.borderRadius || ""};
+  
   font-size: ${(props) => props.fontSize || "1rem"};
   text-align: ${(props) => props.textAlign || "center"};
 
@@ -35,6 +38,8 @@ export const StyledHeader1 = styled.h1`
 `;
 
 export const StyledSpan = styled.span`
-  font-size: ${(props) => props.fontSize || "2vw"};
-  color: ${(props) => props.color || "#eee"};
+  font-size: ${(props) => props.fontSize || "18px"};
+  font-weight: ${(props) => props.fontWeight || ""};
+  color: ${(props) => props.color || ""};
+  background: ${(props) => props.background || ""};
 `;

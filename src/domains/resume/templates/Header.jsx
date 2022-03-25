@@ -56,8 +56,9 @@ const Header = () => {
       >
 
       <StyledDiv 
-        position={"fixed"}
-        top={"30%"}>
+        position={"absolute"}
+        top={"30%"}
+      >
         <div
           data-aos="zoom-in"
           data-aos-delay="100"
@@ -70,7 +71,7 @@ const Header = () => {
       </StyledDiv>
 
       <StyledDiv
-        position={"fixed"}
+        position={"absolute"}
         top={"42%"}
         marginTop={"10px"}>
         <div
@@ -85,7 +86,7 @@ const Header = () => {
       </StyledDiv>
 
       <StyledDiv
-        position={"fixed"}
+        position={"absolute"}
         top={"56%"}
         marginTop={"10px"}>
         <div
@@ -102,7 +103,6 @@ const Header = () => {
 
       <StyledDiv
         position={"absolute"}
-        // position={"fixed"}
         bottom={"12%"}
         >
         <div
@@ -115,7 +115,7 @@ const Header = () => {
           <StyledDiv
             display={"flex"}
             flexDirection={"column"}>
-            <StyledSpan fontSize={"30px"}>Scroll Down</StyledSpan>
+            <StyledSpan fontSize={"30px"} color={"#fff"}>Scroll Down</StyledSpan>
             <span className='arrow'></span>
           </StyledDiv>
         </div>
