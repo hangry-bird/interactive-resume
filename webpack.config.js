@@ -27,13 +27,23 @@ module.exports = {
       exclude: /node_modules/,
     },
     {
+      test: /\.(woff|woff2|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+      use: {
+        loader: 'file-loader',
+        options: {
+          name: "[name].[ext]",
+          outputPath: "fonts/",
+          // name: 'fonts/[name].[ext]',
+        },
+      },
+    },
+    {
       test: /\.(png|svg|jpeg|jpg|gif)$/,
       use: {
         loader: 'url-loader',
         options: {
           limit: false,
           name: 'images/[name]-[hash].[ext]',
-          // name: '[name].[ext]',
         },
       },
     },

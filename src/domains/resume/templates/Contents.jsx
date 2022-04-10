@@ -1,6 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
 import { StyledDiv, StyledHeader1, StyledSpan } from 'src/components/styled-component/tag';
+import HSH from 'src/assets/images/photo/hsh2.jpg'
 
 const Contents = () => {
 
@@ -16,6 +17,7 @@ const Contents = () => {
         data-aos="fade-right"
         data-aos-duration="500"
         width={"60vw"}
+        minWidth={"732px"}
         height={"700px"}
         display={"flex"}
         flexDirection={"column"}
@@ -27,7 +29,26 @@ const Contents = () => {
         <StyledDiv
           width={"100%"}
           height={"50%"}
+          display={"flex"}
         >
+          <StyledDiv
+            width={"100%"}
+            display={"flex"}
+            alignItems={"center"}
+            justifyContent={"center"}
+          >
+            <StyledDiv
+            width={"200px"}
+            height={"200px"}
+            borderRadius={"50%"}
+            overflow={"hidden"}
+            >
+              <img src={HSH} alt="" style={{objectFit:"cover", width:"100%"}} />
+            </StyledDiv>
+          </StyledDiv>
+          <StyledDiv
+            width={"100%"}
+          ></StyledDiv>
 
         </StyledDiv>
 
@@ -40,7 +61,7 @@ const Contents = () => {
           alignItems={"flex-start"}
           justifyContent={"space-evenly"}
           textAlign={"left"}
-          padding={"10px 12%"}
+          padding={"10px 4vw"}
           fontSize={"20px"}
         >
           {/* <StyledDiv> */}

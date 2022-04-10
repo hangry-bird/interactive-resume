@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+// import { createGlobalStyle } from "styled-components";
+
+// import React, { useState } from 'react';
 import styled from "styled-components";
 
 export const StyledDiv = styled.div`
   width: ${(props) => props.width || "100%"};
+  min-width: ${(props) => props.minWidth || ""};
   height: ${(props) => props.height || "auto"};
 
+  overflow: ${(props) => props.overflow || ""};
   background: ${(props) => props.background || ""};
   background-color: ${(props) => props.backgroundColor || ""};
   
