@@ -41,3 +41,55 @@
         }
     }
 }
+.contents-wrap{
+    height: 100vh;
+
+    .aboutMe-wrap{
+        width: 60vw;
+        min-width: 732px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 36px;
+        background-color: #eee;
+        margin: 0 80px;
+
+        .title-area{
+            width: 100%;
+            height: 50%;
+            display: flex;
+
+            .image-area{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .image-wrap{
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+            }
+            .contact-area{
+                width: 100%;
+            }
+        }
+        .explanation-area{
+            width: auto;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            text-align: left;
+            padding: 10px 4vw;
+            font-size: 20px;
+            span.bold{
+                font-size:22px;
+                font-weight: 600;
+                color: #6388FF;
+            }
+        }
+    }
+}
