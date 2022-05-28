@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Pages
-import ResumePage from './domains/resume/page/resumePage';
+import ResumePage from './domains/resume/page/portfolioPage';
 import CanvasBackground from './domains/resume/container/canvasBackground';
 
 // Style
