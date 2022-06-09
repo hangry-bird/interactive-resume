@@ -1,10 +1,7 @@
 import React from 'react';
 import AOS from 'aos';
-import HSH from 'src/assets/images/photo/hsh2.jpg'
-import PersonIcon from '@mui/icons-material/Person';
-import HourglassEmptyOutlinedIcon from '@mui/icons-material/HourglassEmptyOutlined';
-import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
-import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
+// import HSH from 'src/assets/images/photo/hsh2.jpg'
+import HSH from 'src/assets/images/photo/hsh_emoji.png'
 
 const Contents = () => {
 
