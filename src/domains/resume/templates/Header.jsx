@@ -21,7 +21,7 @@ const Header = () => {
     gsap.to(".fade-out-right", {
       scrollTrigger: {
         trigger: ".wrap",
-        markers: true,
+        // markers: true,
         start: "42% 30%",   // start, scroll-start
         end: "40% top",   // end, scroll-end
         scrub: 1,
@@ -33,7 +33,7 @@ const Header = () => {
     gsap.to(".fade-out-left", {
       scrollTrigger: {
         trigger: ".wrap",
-        markers: true,
+        // markers: true,
         start: "42% 30%",   // start, scroll-start
         end: "40% top",   // end, scroll-end
         scrub: 1,

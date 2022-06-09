@@ -12,7 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@inlet/react-pixi": "^6.7.0",
+    "@mui/icons-material": "^5.8.3",
+    "@mui/material": "^5.8.3",
     "aos": "^2.3.4",
     "file-loader": "^6.2.0",
     "gsap": "^3.9.1",

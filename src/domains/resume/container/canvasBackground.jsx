@@ -7,8 +7,8 @@ import { StyledDiv } from 'src/components/styled-component/tag';
 // Image
 import RocketIcon from 'src/assets/images/canvas/rocket.png'
 
-const WIDTH = 1900;
-const HEIGHT = 900;
+const WIDTH = window.innerWidth;
+const HEIGHT = window.innerHeight;
 
 const CanvasBackground = () => {
 
@@ -63,17 +63,21 @@ const CanvasBackground = () => {
     }
 
     return (
-        <StyledDiv
-            position={"fixed"}
-            width={"100%"}
-            height={"100%"}
-            background={"linear-gradient(to bottom, #020024, #0e4b83);"}
-        >
+        <div className="canvas-wrap">
             <Stage width={WIDTH} height={HEIGHT} options={{ backgroundAlpha: 0 }}>
                 <Rocket />
             </Stage>
-
-        </StyledDiv>
+        </div>
+        // <StyledDiv
+        //     position={"fixed"}
+        //     // width={"100%"}
+        //     // height={"100%"}
+        //     background={"linear-gradient(to bottom, #020024, #0e4b83);"}
+        // >
+        //                 <Stage width={WIDTH} height={HEIGHT} options={{ backgroundAlpha: 0 }}>
+        //         <Rocket />
+        //     </Stage>
+        // </StyledDiv>
     )
 }
 
