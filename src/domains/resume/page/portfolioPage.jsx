@@ -1,11 +1,11 @@
 import React from 'react';
 
 // Templates
-import Header from '../templates/Header'
-import Contact from '../templates/Contact';
-import Experience from '../templates/Experience';
-import TechnicalSkills from '../templates/TechnicalSkills';
-import Footer from '../templates/Footer';
+import Header from '../templates/header7'
+import Contact from '../templates/contact7';
+import Experience from '../templates/experience7';
+import TechnicalSkills from '../templates/technicalSkills7';
+import Footer from '../templates/footer7';
 
 // react scroll parallax
 // react aos
