@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect } from 'react';
+import React, { useLayoutEffect } from 'react';
 
 // AOS
 import AOS from 'aos';
@@ -23,7 +23,7 @@ const Header = () => {
         end: "40% top",   // end, scroll-end
         scrub: 1,
       },
-      x: 1500, duration: 4,
+      x: 700, display:"none"
     });
 
     // 왼쪽으로 사라지기
@@ -35,7 +35,7 @@ const Header = () => {
         end: "40% top",   // end, scroll-end
         scrub: 1,
       },
-      x: -1500, duration: 4,
+      x: -700, display:"none"
     });
 
   })
