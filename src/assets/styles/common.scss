@@ -1,7 +1,7 @@
 /* Header Arrow */
 .arrow {
     cursor: pointer;
-    position: relative; 
+    position: absolute;
     height:auto;
     // margin:20px;
     animation: up-down 1.4s infinite ease-in-out alternate;
@@ -12,10 +12,7 @@
 } 
 .arrow::after { 
     content: ''; 
-    // position: absolute; 
     display:inline-block;
-    // left: 0; 
-    // top: 0; 
     width: 22px; 
     height: 22px; 
     border-top: 5px solid #FF4081; 

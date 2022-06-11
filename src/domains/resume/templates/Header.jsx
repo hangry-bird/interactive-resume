@@ -1,8 +1,5 @@
 import React, { useState, useLayoutEffect } from 'react';
 
-// Custom Components
-import { StyledDiv, StyledHeader1, StyledSpan } from 'src/components/styled-component/tag';
-
 // AOS
 import AOS from 'aos';
 

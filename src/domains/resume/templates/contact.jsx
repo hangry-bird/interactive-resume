@@ -1,9 +1,8 @@
 import React from 'react';
 import AOS from 'aos';
-// import HSH from 'src/assets/images/photo/hsh2.jpg'
 import HSH from 'src/assets/images/photo/hsh_emoji.png'
 
-const Contents = () => {
+const Contact = () => {
 
   AOS.init();
 
@@ -48,17 +47,4 @@ const Contents = () => {
   );
 }
 
-export default Contents;
-
-
-// 심도 있는 Front-End 개발자가 되고자
-// 노력하는 Web 개발자 입니다.
-
-// 항상 내가 아닌 '사용자의 입장'에서 생각하려고 노력하며
-// 좋은 UX를 구현하고자 합니다.
-
-// 크고 작은 프로젝트를 진행하면서
-// 팀원들과 의견을 교환하며 소통하는 것을 좋아합니다.
-
-// 많은 경험을 위해 스스로에 대해
-// 영역 간의 구분과 한계를 두지 않고 개발하고 있습니다.
+export default Contact;

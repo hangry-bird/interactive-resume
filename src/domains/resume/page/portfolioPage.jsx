@@ -1,8 +1,11 @@
 import React from 'react';
 
 // Templates
-import Header from '../templates/Header'
-import Contents from '../templates/Contents';
+import Header from '../templates/header'
+import Contact from '../templates/contact';
+import Experience from '../templates/experience';
+import TechnicalSkills from '../templates/technicalSkills';
+import Footer from '../templates/footer';
 
 // react scroll parallax
 // react aos
@@ -12,7 +15,10 @@ const PortfolioPage = () => {
   return (
     <div className="portfolio-page">
       <Header />
-      <Contents />
+      <Contact />
+      <Experience />
+      <TechnicalSkills />
+      <Footer />
     </div>
   );
 }

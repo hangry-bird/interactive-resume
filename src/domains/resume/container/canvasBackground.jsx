@@ -1,8 +1,5 @@
-import React, { useReducer, useRef } from 'react';
+import React, { useReducer, useRef, useLayoutEffect } from 'react';
 import { Stage, Sprite, useTick } from '@inlet/react-pixi'
-
-// Custom Components
-import { StyledDiv } from 'src/components/styled-component/tag';
 
 // Image
 import RocketIcon from 'src/assets/images/canvas/rocket.png'
@@ -68,16 +65,6 @@ const CanvasBackground = () => {
                 <Rocket />
             </Stage>
         </div>
-        // <StyledDiv
-        //     position={"fixed"}
-        //     // width={"100%"}
-        //     // height={"100%"}
-        //     background={"linear-gradient(to bottom, #020024, #0e4b83);"}
-        // >
-        //                 <Stage width={WIDTH} height={HEIGHT} options={{ backgroundAlpha: 0 }}>
-        //         <Rocket />
-        //     </Stage>
-        // </StyledDiv>
     )
 }
 

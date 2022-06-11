@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+html{
+    scroll-behavior: smooth;
+}
 html, body, #root, .App{
     width: 100%;
     min-width: 100%;

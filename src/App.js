@@ -1,5 +1,5 @@
 // App.tsx
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Pages
@@ -13,9 +13,6 @@ import './assets/styles/style.scss'
 // Toastify
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-// Custom Components
-import { StyledDiv } from 'src/components/styled-component/tag';
 
 function App() {
 
