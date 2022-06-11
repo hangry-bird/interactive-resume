@@ -23,7 +23,8 @@ const Contact = () => {
 
           <div className="contact-area">
               <div className="span-cover" onClick={() => { window.location = "mailto:starcjs7@gmail.com" }}>starcjs7@gmail.com</div>
-              <div className="span-cover" onClick={() => { window.open('#') }}>RESUME</div>
+              {/* <div className="span-cover" onClick={() => { window.open('#') }}>RESUME</div> */}
+              <div className="span-cover">010-9464-8841</div>
               <div className="span-cover" onClick={() => { window.open('https://github.com/hangry-bird') }}>GITHUB</div>
             <div className="span-cover-border" />
           </div>
